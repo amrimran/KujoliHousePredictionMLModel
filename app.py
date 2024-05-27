@@ -134,4 +134,4 @@ if st.button('Predict'):
         print(row)
 
     prediction = model.predict(encoded_data2)
-    st.write(f'The predicted house price is: $ {prediction[0]}')
+    st.write(f'The predicted house price is: $ {prediction[0]:,.2f}')
