@@ -4,7 +4,7 @@ import joblib
 from datetime import datetime
 
 # Load the trained model
-model = joblib.load('kujoli_gradient_boosting_model.pkl')
+model = joblib.load('kujoli_random_forest_model.pkl')
 
 current_year = datetime.now().year
 
